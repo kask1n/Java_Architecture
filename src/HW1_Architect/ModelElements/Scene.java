@@ -1,9 +1,6 @@
-package ModelElements;
+package HW1_Architect.ModelElements;
 
-import java.lang.reflect.Method;
-import java.util.GregorianCalendar;
 import java.util.List;
-import java.util.Scanner;
 
 public class Scene {
     public int id;

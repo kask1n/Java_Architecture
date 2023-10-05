@@ -1,4 +1,4 @@
-package ModelElements;
+package HW1_Architect.ModelElements;
 
 import java.util.ArrayList;
 import java.util.List;

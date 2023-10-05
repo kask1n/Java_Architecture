@@ -1,7 +1,7 @@
-package ModelElements;
+package HW1_Architect.ModelElements;
 
-import Stuff.Angle3D;
-import Stuff.Point3D;
+import HW1_Architect.Stuff.Angle3D;
+import HW1_Architect.Stuff.Point3D;
 
 public class Camera {
     public Point3D Location;

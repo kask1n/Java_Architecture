@@ -1,6 +1,6 @@
-package ModelElements;
+package HW1_Architect.ModelElements;
 
-import Stuff.Point3D;
+import HW1_Architect.Stuff.Point3D;
 
 import java.util.ArrayList;
 import java.util.List;
