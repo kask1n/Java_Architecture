@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c3e5b1a6-eb0f-42d4-9855-c15fcd05b3dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModelElements/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModelElements/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModelElements/Flash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModelElements/Flash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModelElements/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModelElements/Poligon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3_Architect/DIP/Diesel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/DIP/Diesel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3_Architect/DIP/Petrol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/DIP/Petrol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +38,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Git/Java_Architecture&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Git/Java_Architecture/src/HW2_Architect&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\Java_Architecture\src\HW2_Architect" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="HW2_Architect" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
