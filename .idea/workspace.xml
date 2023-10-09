@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c3e5b1a6-eb0f-42d4-9855-c15fcd05b3dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3_Architect/DIP/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/DIP/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW3_Architect/DIP/Diesel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/DIP/Diesel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW3_Architect/DIP/Petrol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/DIP/Petrol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3_Architect/ISP/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/ISP/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3_Architect/ISP/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/ISP/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3_Architect/ISP/iShape2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/ISP/iShape2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3_Architect/ISP/iShape3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3_Architect/ISP/iShape3D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

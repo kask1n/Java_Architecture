@@ -11,4 +11,7 @@ public class Car {
         return engine;
     }
 
+    public void start() {
+        this.engine.start();
+    }
 }

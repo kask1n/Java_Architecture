@@ -1,6 +1,6 @@
 package HW3_Architect.ISP;
 
-public class Cylinder implements iShape3D {
+public class Cylinder implements iShape2D, iShape3D {
     private double radius;
     private double height;
 
@@ -23,6 +23,11 @@ public class Cylinder implements iShape3D {
 
     public void setHeight(double height) {
         this.height = height;
+    }
+
+    @Override
+    public double area() {
+        return 2 * Math.PI * radius + 2 * Math.PI * Math.pow(radius, 2);
     }
 
     @Override
