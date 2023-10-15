@@ -7,6 +7,8 @@
     <list default="true" id="c3e5b1a6-eb0f-42d4-9855-c15fcd05b3dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW4_Architect/CashProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4_Architect/CashProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4_Architect/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4_Architect/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4_Architect/HW4_My UML Diagram.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW4_Architect/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4_Architect/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW4_Architect/TicketProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4_Architect/TicketProvider.java" afterDir="false" />
     </list>
@@ -40,14 +42,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Git/Java_Architecture/src/HW2_Architect&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Git/Java_Architecture/src/HW4_Architect&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\Java_Architecture\src\HW4_Architect" />
       <recent name="E:\Git\Java_Architecture\src\HW2_Architect" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
