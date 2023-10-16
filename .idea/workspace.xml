@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3e5b1a6-eb0f-42d4-9855-c15fcd05b3dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4_Architect/CashProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4_Architect/CashProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4_Architect/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4_Architect/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4_Architect/HW4_My UML Diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4_Architect/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4_Architect/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4_Architect/TicketProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4_Architect/TicketProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
