@@ -67,6 +67,36 @@
       <recent name="HW2_Architect" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="OpenAPI.yaml" type="SwaggerCodegen" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="generateToPath" value="D:\Git\Java_Architecture\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
+      <option name="jdkPath" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.4\jbr\bin\java.exe" />
+      <option name="language" value="java" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="specificationPath" value="D:\Git\Java_Architecture\src\HW9_Architect\OpenAPI.yaml" />
+      <option name="workingDirectory" value="D:\Git\Java_Architecture\src\HW9_Architect" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="OpenAPI/Swagger Code Generator.OpenAPI.yaml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696266713214</updated>
       <workItem from="1698689640566" duration="1556000" />
-      <workItem from="1698877924335" duration="2432000" />
+      <workItem from="1698877924335" duration="3583000" />
     </task>
     <servers />
   </component>

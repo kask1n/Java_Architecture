@@ -11,7 +11,7 @@ paths:
       summary: Метод получения списка ресурсов на облако
       tags:
         - Clouds
-      operationID: getAllClouds
+      operationId: getAllClouds
       responses: 
         "200":
           description: Успешный ответ на запрос
@@ -29,7 +29,7 @@ paths:
       summary: Создание заказа на облако
       tags:
         - Clouds
-      operationID: createCloud
+      operationId: createCloud
       requestBody:
         content:
           application/json:
@@ -53,7 +53,7 @@ paths:
       summary: Отмена заказа по ID
       tags:
         - Clouds
-      operationID: cancelCloudByID
+      operationId: cancelCloudByID
       parameters:
         - name: cloudID
           in: path
@@ -99,7 +99,7 @@ paths:
           schema:
             type: integer
           example: 516
-      operationID: changeCloud
+      operationId: changeCloud
       requestBody:
         content:
           application/json:
