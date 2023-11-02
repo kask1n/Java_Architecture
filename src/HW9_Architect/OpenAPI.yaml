@@ -11,7 +11,7 @@ paths:
       summary: Метод получения списка ресурсов на облако
       tags:
         - Clouds
-      operationId: getAllClouds
+      operationID: getAllClouds
       responses: 
         "200":
           description: Успешный ответ на запрос
@@ -29,15 +29,15 @@ paths:
       summary: Создание заказа на облако
       tags:
         - Clouds
-      operationId: createCloud
+      operationID: createCloud
       requestBody:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Cloud"
+              $ref: "#/components/schemas/Clouds"
       responses:
         "200":
-          description: Успешный ответ
+          description: Успешный ответ на запрос
           content:
             application/json:
               schema:
@@ -48,17 +48,17 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
-  /cloud/{cloudId}:
+  /cloud/{cloudID}:
     delete:
       summary: Отмена заказа по ID
       tags:
         - Clouds
-      operationId: cancelCloudByID
+      operationID: cancelCloudByID
       parameters:
-        - name: cloudId
+        - name: cloudID
           in: path
           required: true
-          description: Id заказа на облако
+          description: ID заказа на облако
           schema:
             type: string
           example: f1234j5678
@@ -67,8 +67,57 @@ paths:
           description: Отмена прошла успешно
           content:
             application/json: {}
+        "404":
+          description: Заказ не найден
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
         "default":
           description: Всё остальное
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /cloud/{clientID}/{RAM}:
+    put:
+      summary: Изменение арендуемого объёма памяти
+      tags:
+        - Clouds
+      parameters:
+        - name: clientID
+          in: path
+          required: true
+          description: ID клиента
+          schema:
+            type: string
+          example: f1234j5678
+        - name: RAM
+          in: path
+          required: true
+          description: Изменение объёма памяти
+          schema:
+            type: integer
+          example: 516
+      operationID: changeCloud
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Clouds"
+      responses:
+        "200":
+          description: Успешное изменение объёма памяти
+          content:
+            application/json: {}
+        "404":
+          description: ClientID не найден
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "default":
+          description: Все остальные ответы
           content:
             application/json:
               schema:
@@ -84,10 +133,10 @@ components:
         - CPU
         - SSD
       properties:
-        cloudId:
+        cloudID:
           type: string
           example: f1234j5678
-        clientId:
+        clientID:
           type: string
           example: f1234j5678
         OS:
