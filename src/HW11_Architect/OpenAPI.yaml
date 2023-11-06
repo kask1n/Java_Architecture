@@ -1,0 +1,243 @@
+openapi: 3.0.0
+info:
+  title: Робот-пылесос
+  version: 0.0.1
+servers:
+  - url: "http://localhost:8080/api/v1"
+    description: "Dev server"
+paths:
+
+  /robots:
+    get:
+      summary: Получение списка роботов
+      tags:
+        - Robots
+      operationId: getAllRobots
+      responses:
+        "200":
+          description: Успешный ответ на запрос
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Robots"
+        default:
+          description: Всё остальное
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+  /User:
+    post:
+      tags:
+        - User
+      summary: Добавить пользователя
+      description: Добавить пользователя в базу
+      operationId: addUser
+      requestBody:
+        description: Создание нового пользователя в базе
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/User'
+        required: true
+      responses:
+        '200':
+          description: Пользователь успешно добавлен
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/User'
+        '405':
+          description: Ошибка ввода
+
+  /User/deleteById/{id}:
+    delete:
+      tags:
+        - User
+      summary: Удаление пользователя
+      description: Удаление пользователя из базы данных
+      operationId: deleteUser
+      parameters:
+        - name: id
+          in: header
+          description: ''
+          required: false
+          schema:
+            type: string
+        - name: id
+          in: path
+          description: ID пользователя
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Пользователь успешно удален
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Invalid User value
+
+  /Robot:
+    put:
+      tags:
+        - Robot
+      summary: Обновление робота-пылесоса
+      description: Обновление данных о роботе пылесосе
+      operationId: updateRobot
+      requestBody:
+        description: Обновление данных о роботе пылесосе
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Robot'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/Robot'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Robot'
+        required: true
+      responses:
+        '200':
+          description: Робот обновлен успешно
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Robot'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Robot'
+        '400':
+          description: Некорректный id
+        '404':
+          description: робот не найден
+
+  /Group:
+    post:
+      tags:
+        - Group
+      summary: Добавление группы
+      description: Добавление группы в базу данных
+      operationId: addGroup
+      requestBody:
+        description: Добавление группы в базу данных
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Group'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/Group'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Group'
+        required: true
+      responses:
+        '200':
+          description: Группа добавлена
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Group'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Group'
+        '405':
+          description: Некорректный ввод
+
+components:
+  schemas:
+    Robot:
+      type: object
+      required:
+        - id
+        - model
+        - version
+        - status
+        - fabric_number
+        - resource
+        - ip_address
+        - id_group
+      properties:
+        id:
+          type: integer
+          example: 1
+        model:
+          type: string
+          example: "AAA"
+        version:
+          type: string
+          example: "123.123.123d"
+        status:
+          type: string
+          example: "worked"
+        fabric_number:
+          type: string
+          example: "ABC123"
+        resource:
+          type: integer
+          example: 75
+        ip_address:
+          type: string
+          example: "108.1.123.25"
+        id_group:
+          type: integer
+          example: 1
+    User:
+      type: object
+      required:
+        - id
+        - login
+        - hash_password
+      properties:
+        id:
+          type: integer
+          example: 1
+        login:
+          type: string
+          example: "user777"
+        hash_password:
+          type: integer
+          example: 123456
+    Users:
+      type: array
+      items:
+        $ref: "#/components/schemas/User"
+    Group:
+      required:
+        - userId
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 10
+        userId:
+          type: integer
+          example: 10
+    Robots:
+      type: array
+      items:
+        $ref: "#/components/schemas/Robot"
+    Error:
+      type: object
+      required:
+        - code
+        - items
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
