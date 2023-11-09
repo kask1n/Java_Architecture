@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3e5b1a6-eb0f-42d4-9855-c15fcd05b3dc" name="Changes" comment="" />
+    <list default="true" id="c3e5b1a6-eb0f-42d4-9855-c15fcd05b3dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Architecture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Architecture.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,12 +42,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Git/Java_Architecture/src/HW11_Architect",
+    "last_opened_file_path": "D:/Git/Java_Architecture/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,9 +69,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\Java_Architecture\src" />
       <recent name="D:\Git\Java_Architecture\src\HW11_Architect" />
       <recent name="D:\Git\Java_Architecture\src\HW10_Architect" />
-      <recent name="D:\Git\Java_Architecture\src" />
       <recent name="D:\Git\Java_Architecture\src\HW9_Architect" />
       <recent name="E:\Git\Java_Architecture\src\HW8_Architect" />
     </key>
@@ -67,11 +79,81 @@
       <recent name="D:\Git\Java_Architecture\src\HW11_Architect" />
       <recent name="D:\Git\Java_Architecture\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="HW12_Architect" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="HW2_Architect" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GroupUserTest.addUser">
+    <configuration name="GroupUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW12_Architect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW12_Architect" />
+      <option name="MAIN_CLASS_NAME" value="HW12_Architect.GroupUserTest" />
+      <option name="METHOD_NAME" value="findList" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupUserTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW12_Architect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW12_Architect" />
+      <option name="MAIN_CLASS_NAME" value="HW12_Architect.GroupUserTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupUserTest.findList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW12_Architect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW12_Architect" />
+      <option name="MAIN_CLASS_NAME" value="HW12_Architect.GroupUserTest" />
+      <option name="METHOD_NAME" value="findList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupUserTest.getUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW12_Architect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW12_Architect" />
+      <option name="MAIN_CLASS_NAME" value="HW12_Architect.GroupUserTest" />
+      <option name="METHOD_NAME" value="getUserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenAPI.yaml" type="SwaggerCodegen" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="customTemplatesPath" value="" />
@@ -97,6 +179,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupUserTest.addUser" />
+        <item itemvalue="JUnit.GroupUserTest" />
+        <item itemvalue="JUnit.GroupUserTest.findList" />
+        <item itemvalue="JUnit.GroupUserTest.getUserList" />
         <item itemvalue="OpenAPI/Swagger Code Generator.OpenAPI.yaml" />
       </list>
     </recent_temporary>
@@ -112,7 +198,8 @@
       <workItem from="1698689640566" duration="1556000" />
       <workItem from="1698877924335" duration="4137000" />
       <workItem from="1698938080460" duration="421000" />
-      <workItem from="1699289757198" duration="3963000" />
+      <workItem from="1699289757198" duration="4297000" />
+      <workItem from="1699530751981" duration="1274000" />
     </task>
     <servers />
   </component>
